@@ -27,11 +27,19 @@
       "dev-master": "0.1.x-dev"
     }
   },
-    "archive": {
-        "exclude": [
-            ".editorconfig",
-            ".gitignore",
-            "README.md"
-        ]
-    }
+  "archive": {
+    "exclude": [
+      ".editorconfig",
+      ".gitignore",
+      "README.md"
+    ]
+  },
+  "non-feature-branches": [
+    "release",
+    "prerelease/.*",
+    "feature/.*",
+    "support/.*",
+    "bugfix/.*",
+    "hotfix/.*"
+  ]
 }
