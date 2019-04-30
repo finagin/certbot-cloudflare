@@ -1,0 +1,4 @@
+vendor
+*-output.json
+composer.lock
+config.json
